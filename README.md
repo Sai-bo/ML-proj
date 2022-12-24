@@ -8,7 +8,7 @@ data有點太大了，處理要花超多時間，所以我把處理完的存成c
 
 然後train_y是答案
 
-
+-----------------------------------------------------
 Public (test) data弄好了
 
 連結：https://drive.google.com/drive/folders/1bj-1y0a01hUgGySyOJ5k3P9H6YSAoDd6?usp=sharing
