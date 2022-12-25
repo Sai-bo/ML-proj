@@ -1,6 +1,6 @@
 # ML-proj
 
-data有點太大了，處理要花超多時間，所以我把處理完的存成csv放在雲端
+data有點太大了，處理要花超多時間，所以我把處理完的存成csv放在雲端（github只能傳100Mb以內）
 
 連結：https://drive.google.com/drive/folders/1YfkD__w1TL-w2lWInRC3zi8prf-Sx30q?usp=sharing
 
