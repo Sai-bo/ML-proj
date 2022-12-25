@@ -1,8 +1,13 @@
-目前功能：拿測試資料的一小部分跑LSTM、計算training loss。
+目前功能：
+
+data_process：把資料格式調成以月為單位的（大概要跑半小時，不過檔案應該有小很多，我放在 https://drive.google.com/drive/folders/1hm-Kq3tEjpw9mFThDX4AuKNBnUPUCLC3?usp=share_link 和 https://drive.google.com/drive/folders/1rSA6F5fZ0a2NqHT6YSjbDPAdpSMXKnMQ?usp=share_link）。
+
+LSTM：拿V_cred來train，拿V_cred_public來測試。
+
+
 
 TODO:
 
-1.跑看看public testcase測看看會拿到多少public score
-2.有些測試資料是以天為單位，有些是以月為單位，如果都轉成以月為單位比較能一起放進LSTM跑（可能就是照 前13個月、前12個月、...前1個月 的順序，丟進LSTM這樣）
-4.訓練時也許可以複製更多有報SAR的資料，看看效果會不會比較好
-5.在這個README裡面寫第3.點
+1.把五個V_的資料做適當合併，一起丟進LSTM來train。
+
+2.oversampling。
