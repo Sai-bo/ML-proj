@@ -4,6 +4,8 @@ Please download the "訓練資料集_first.zip" from the contest website, unzip 
 
 The data processed will be store in "./train_data_processed/" and "./public_data_processed/", please create these two folder in the same directory as above.
 
+It will take about 2 hours to process the data.
+
 =====DNN=====
 This is the model that generates our best result. 
 Please put all files in the same directory, and run DNN.ipynb. 
