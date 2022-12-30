@@ -13,4 +13,8 @@ However, we did save the best model and best prediction.
 They are model(best_result).pth and predict(best_result).csv. 
 
 The first line of each block briefly explain the code. 
-=============
+
+=====LSTM=====
+Please run LSTM.ipynb to generate the predictions. If you want to directly play with model.zip, just run the last part of LSTM.ipynb.
+
+data_process_lstm.ipynb uses another way to deal with all .csv files and make those data readable for LSTM. However, you don't have to run it before running LSTM.ipynb because we've stored the pre-processed data and they are already usable in LSTM.ipynb.
