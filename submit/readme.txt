@@ -2,6 +2,8 @@
 Our data are preprocessed and embedded through data_process.ipynb.
 Please download the "訓練資料集_first.zip" from the contest website, unzip it, and rename the folder to "train_data_first". Also, download the "24_ESun_public_y_answer.csv". Put the "train_data_first" folder, the "24_ESun_public_y_answer.csv" file and "data_process.ipynb" in the same directory, then run data_process.ipynb.
 
+The data processed will be store in "./train_data_processed/" and "./public_data_processed/", please create these two folder in the same directory as above.
+
 =====DNN=====
 This is the model that generates our best result. 
 Please put all files in the same directory, and run DNN.ipynb. 
